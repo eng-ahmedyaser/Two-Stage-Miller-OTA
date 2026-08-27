@@ -19,5 +19,4 @@ The following table outlines the target requirements for the OTA alongside the f
 | **CMRR @ DC** | $\ge$ 74 dB | 75.74 dB | ✅ |
 | **Slew Rate** | $\ge$ 5 V/μs | 5.124 V/μs | ✅ |
 | **Output Swing** | 0.2 V to 1.6 V | 0.12 V to 1.69 V | ✅ |
-| **Load Capacitance** | 5 pF | 5 pF | ✅ |
 | **Static Gain Error** | $\le$ 0.05% | 0.039% | ✅ |
