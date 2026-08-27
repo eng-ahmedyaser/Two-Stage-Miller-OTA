@@ -1,23 +1,23 @@
-# Two-Stage-Miller-OTA
-Comprehensive design and analysis of a Two-Stage Miller OTA. This project involved meeting rigorous specifications.
-### Required Specs:
-• Phase Margin: ≥ 70° \n
-• DC Gain: ≥ 66 dB \n
-• Current Consumption: ≤ 60 μA \n
-• Common-Mode Rejection Ratio (CMRR) @ DC: ≥ 74 dB \n
-• Slew Rate: ≥ 5 V/μs \n
-• Output Swing: 0.2 V to 1.6 V \n
-• Load Capacitance: 5 pF \n
-• Static Gain Error: ≤ 0.05% \n
+# Two-Stage Miller OTA
 
-### Achieved Specs:
-• Phase Margin: = 73.84° \n
-• DC Gain: = 70.07 dB \n
-• Current Consumption: = 59.94 μA \n
-• Common-Mode Rejection Ratio (CMRR) @ DC: = 75.74 dB \n
-• Slew Rate: = 5.124 V/μs \n
-• Output Swing: 0.12 V to 1.69 V \n
-• Load Capacitance: 5 pF \n
-• Static Gain Error: ≤ 0.039% \n
+Comprehensive design and analysis of a Two-Stage Miller Operational Transconductance Amplifier (OTA). This project involved designing a custom analog integrated circuit to meet rigorous performance specifications.
 
-Designed using $g_m/I_D$ methodology with Cadence Virtuoso with CMOS 180nm Technology.
+### 🛠️ Tools & Technology
+* **Methodology:** $g_m/I_D$ sizing methodology
+* **EDA Tool:** Cadence Virtuoso
+* **Technology Node:** CMOS 180nm
+
+### 📊 Performance Specifications
+
+The following table outlines the target requirements for the OTA alongside the final achieved simulation results, successfully meeting or exceeding all design parameters.
+
+| Parameter | Required Specification | Achieved Result | Status |
+| :--- | :--- | :--- | :---: |
+| **Phase Margin (PM)** | $\ge$ 70° | 73.84° | ✅ |
+| **DC Gain** | $\ge$ 66 dB | 70.07 dB | ✅ |
+| **Current Consumption** | $\le$ 60 μA | 59.94 μA | ✅ |
+| **CMRR @ DC** | $\ge$ 74 dB | 75.74 dB | ✅ |
+| **Slew Rate** | $\ge$ 5 V/μs | 5.124 V/μs | ✅ |
+| **Output Swing** | 0.2 V to 1.6 V | 0.12 V to 1.69 V | ✅ |
+| **Load Capacitance** | 5 pF | 5 pF | ✅ |
+| **Static Gain Error** | $\le$ 0.05% | 0.039% | ✅ |
